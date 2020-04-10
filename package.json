@@ -1,0 +1,20 @@
+{
+  "name": "simplest-mediasoup",
+  "version": "1.0.0",
+  "main": "src/server.ts",
+  "scripts": {
+    "lint": "eslint",
+    "start": "node ./src/server.ts"
+  },
+  "repository": "https://github.com/pplink/simplest-mediasoup.git",
+  "author": "geongun20 <leesg9@snu.ac.kr>",
+  "license": "MIT",
+  "dependencies": {
+    "mediasoup": "3.5.7",
+    "node": "^13.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.11.1",
+    "eslint": "^6.8.0"
+  }
+}
