@@ -4,17 +4,22 @@
   "main": "src/server.ts",
   "scripts": {
     "lint": "eslint",
-    "start": "node ./src/server.ts"
+    "start": "ts-node ./src/server.ts"
   },
   "repository": "https://github.com/pplink/simplest-mediasoup.git",
   "author": "geongun20 <leesg9@snu.ac.kr>",
   "license": "MIT",
   "dependencies": {
+    "@types/node": "^13.11.1",
     "mediasoup": "3.5.7",
-    "node": "^13.12.0"
+    "ts-node": "^8.8.2"
   },
   "devDependencies": {
-    "@types/node": "^13.11.1",
-    "eslint": "^6.8.0"
+    "@typescript-eslint/parser": "^2.27.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^2.0.4",
+    "typescript": "^3.8.3"
   }
 }

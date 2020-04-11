@@ -1,34 +1,9 @@
 {
-  "extends": [
-    "airbnb-base",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:@typescript-eslint/eslint-recommended",
-    "prettier/@typescript-eslint",
-    "plugin:prettier/recommended"
-  ],
+  "extends": ["prettier/@typescript-eslint", "plugin:prettier/recommended"],
   "parser": "@typescript-eslint/parser",
   "plugins": ["@typescript-eslint", "prettier"],
-  "settings": {
-    "import/parsers": {
-      "@typescript-eslint/parser": [".ts", ".tsx"]
-    },
-    "import/resolver": {
-      "typescript": {}
-    }
-  },
   "ignorePatterns": ["node_modules/"],
   "rules": {
-    "import/extensions": [2, "never"],
-    "@typescript-eslint/no-empty-interface": 0,
-    "import/prefer-default-export": 0,
-    "no-console": 0,
-    "no-plusplus": 0,
-    "no-param-reassign": 0,
-    "no-else-return": 0,
-    "import/no-cycle": 0,
-    "no-shadow": 0,
-    "lines-between-class-members": 0,
-    "@typescript-eslint/no-unused-vars": 0,
     "prettier/prettier": "error"
   }
 }

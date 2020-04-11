@@ -1,6 +1,4 @@
-import http from 'http';
-
-http.createServer((req,res)=>{
-  res.writeHead(200,{'Content-Type':'text/plain'});
-  res.end('Hello World!');
-}).listen(8080);
+import { App } from './app';
+const app = new App();
+app.initServer();
+app.run();
